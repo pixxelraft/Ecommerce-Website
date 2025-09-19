@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procurement Request - Pixxelraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">PIXXELRAFT<span>.</span></a>
+        <nav class="nav">
+            <a href="index.html">Component Catalogue</a>
+            <a href="request.html" class="procurement-link">
+                Procurement List
+                <span id="procurement-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="request-section">
+            <div class="request-header">
+                 <h2>Procurement Request List</h2>
+                 <button class="procurement-btn remove-btn" id="empty-list-btn">Empty List</button>
+            </div>
+            <div id="request-list-container">
+                </div>
+
+            <div id="total-cost-container" class="total-cost-container" style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color); text-align: right;">
+                </div>
+
+            <div class="request-form-container">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; text-align: center;">Secure Bank Transfer & Quotation Form</h3>
+                <form id="request-form">
+                    <div class="form-group">
+                        <label for="companyName">Authorized Company Name</label>
+                        <input type="text" id="companyName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectId">Project ID / Authorization Code</label>
+                        <input type="text" id="projectId" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="secureContact">Secure Comms Channel (Email/ID)</label>
+                        <input type="text" id="secureContact" required>
+                    </div>
+                    <button type="submit" class="procurement-btn" style="width: 100%; font-size: 1.2rem;">
+                        Transmit Secure Request
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 PIXXELRAFT TECHNOLOGIES. All Rights Reserved. // EYES ONLY //</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

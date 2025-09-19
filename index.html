@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixxelraft Technologies - Secure Procurement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">PIXXELRAFT<span>.</span></a>
+        <nav class="nav">
+            <a href="index.html">Component Catalogue</a>
+            <a href="request.html" class="procurement-link">
+                Procurement List
+                <span id="procurement-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Advanced Systems & Strategic Components</h1>
+            <p>The official procurement portal for mission-critical technologies. For authorized partners only.</p>
+        </section>
+        <section class="client-section">
+    <div class="section-container">
+        <div style="text-align: center;">
+             <h2>GLOBAL LOGISTICS & CLIENTELE</h2>
+        </div>
+        <div class="client-subsection">
+            <h3>SOVEREIGN PARTNERS</h3>
+            <div class="countries-list">
+                <span class="country-tag">United States</span>
+                <span class="country-tag">United Arab Emirates</span>
+                <span class="country-tag">Japan</span>
+                <span class="country-tag">South Korea</span>
+                <span class="country-tag">Germany</span>
+                <span class="country-tag">United Kingdom</span>
+                <span class="country-tag">Canada</span>
+                <span class="country-tag">Singapore</span>
+                <span class="country-tag">France</span>
+                <span class="country-tag">Australia</span>
+            </div>
+        </div>
+        <div class="client-subsection">
+            <h3>CORPORATE & INDUSTRIAL ALLIES</h3>
+            <div class="scroller-container">
+                <div class="scroller" data-direction="left">
+                    <span>SpaceX</span><span>Blue Origin</span><span>Lockheed Martin</span><span>Northrop Grumman</span><span>BAE Systems</span><span>Alphabet (Google)</span><span>Microsoft</span><span>Amazon Web Services</span><span>Apple</span><span>NVIDIA</span><span>Intel</span><span>TSMC</span><span>Samsung Heavy Industries</span><span>Tesla</span><span>Cyberdyne Systems</span><span>Stark Industries</span><span>Axiom Corporation</span><span>Tyrell Corporation</span><span>Omni Consumer Products</span><span>Roscosmos</span><span>JAXA</span><span>ESA</span><span>Virgin Galactic</span><span>Rocket Lab</span><span>Raytheon</span><span>Boeing</span><span>Airbus</span><span>QuantumScape</span><span>Palantir Technologies</span><span>BlackRock</span><span>Goldman Sachs</span><span>Moderna</span><span>Pfizer</span><span>BioNTech</span><span>Asgardia</span><span>Aetherial Robotics</span><span>Helios Energy</span><span>Cygnus Interstellar</span><span>BioSynth Genetics</span><span>Hyperion Dynamics</span><span>Vertex Aerospace</span><span>NeuroLink</span><span>ExoGen</span><span>Stellar Cartography Inc.</span><span>Hadron Collider Group</span><span>Sirius Cybernetics Corp.</span><span>Weyland-Yutani Corp.</span><span>Orbital Dynamics</span><span>Genesis Engineering</span><span>Solaria Energy</span>
+                </div>
+                <div class="scroller" data-direction="right">
+                    <span>Aperture Science</span><span>Black Mesa</span><span>Shinra Electric Power Co.</span><span>Capsule Corp.</span><span>GDI</span><span>Nod</span><span>Terran Dominion</span><span>Protoss Empire</span><span>Cerberus</span><span>Umbrella Corporation</span><span>Abstergo Industries</span><span>Sarif Industries</span><span>Militech</span><span>Arasaka Corporation</span><span>Crynet Systems</span><span>Hargrave-Rasch Biomedical</span><span>Poseidon Energy</span><span>Vault-Tec Corporation</span><span>Massive Dynamic</span><span>InGen</span><span>General Atomics</span><span>Boston Dynamics</span><span>DeepMind</span><span>Kaspersky</span><span>Arm Holdings</span><span>SoftBank Group</span><span>Tencent</span><span>Alibaba Group</span><span>Reliance Industries</span><span>Adani Group</span><span>Tata Advanced Systems</span><span>Larsen & Toubro</span><span>Hindustan Aeronautics Ltd.</span><span>ISRO</span><span>DRDO</span><span>Rosatom</span><span>Mitsubishi Heavy Industries</span><span>Kawasaki Heavy Industries</span><span>Thales Group</span><span>Safran</span><span>Rheinmetall</span><span>Kongsberg Gruppen</span><span>Israel Aerospace Industries</span><span>Embraer</span><span>Rostec</span><span>United Launch Alliance</span><span>Sierra Nevada Corporation</span><span>General Dynamics</span><span>CACI International</span><span>Leidos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="component-section">
+            <div style="text-align: center;">
+                 <h2>COMPONENT CATALOGUE // SEC-LEVEL OMEGA</h2>
+            </div>
+
+            <div class="controls-container">
+                <div class="filter-group">
+                    <span>Filter by Class:</span>
+                    <button class="filter-btn active" data-filter="ALL">ALL</button>
+                    <button class="filter-btn" data-filter="OMEGA-1">OMEGA-1</button>
+                    <button class="filter-btn" data-filter="ZETA-9">ZETA-9</button>
+                    <button class="filter-btn" data-filter="GAMMA-7">GAMMA-7</button>
+                    <button class="filter-btn" data-filter="DELTA-4">DELTA-4</button>
+                </div>
+                <div class="sort-group">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select" class="sort-select">
+                        <option value="default">Default</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="price-asc">Price: Low to High</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="component-grid" id="component-grid">
+                </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2025 PIXXELRAFT TECHNOLOGIES. All Rights Reserved. // EYES ONLY //</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
